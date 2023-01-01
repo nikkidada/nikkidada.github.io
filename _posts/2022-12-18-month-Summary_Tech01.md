@@ -23,6 +23,7 @@ author: jay
 
 		2、性能提升
 			1、通过硬件升级，nitro V5将性能相比V4，PPS提升60%、Latency减少30%、带宽提升200G。
+
 			2、通过SRD with ENA、EBS、EFA全面提升网络、存储、HPC等各个场景的性能。(SRD for everything)
 				1>SRD通过multipath、outer of order、retry in ms等技术手段相比TCP协议提升了单流性能及路径影响业务的时间。
 				2>ENA express,在原有ENA的基础上也支持SRD协议。
@@ -35,3 +36,4 @@ author: jay
 			HPC7g, G3E + Nitro V5
 			TRN1n，搭载自研 Trainium 芯片，本次进行了网络从 800Gbps 到 1.6Tbps 的升级，适合用于超大规模的分布式模型训练场景；
 			Inf2,  搭载最新的 Inferentia2 推理芯片，计算性能提升3倍，可用于大型深度学习模型分布式推理场景；
+
